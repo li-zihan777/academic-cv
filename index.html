@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="李子涵｜四川大学华西临床医学院｜个人学术简历网页" />
+  <meta name="keywords" content="李子涵, 学术简历, 医学检验, 医学人工智能, 单细胞转录组, 多组学, 生物标志物" />
+  <meta name="author" content="李子涵" />
+  <title>李子涵 | Academic CV</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!--
+    GitHub Pages 部署步骤：
+    1. 新建一个 GitHub 仓库，例如：academic-cv
+    2. 将 index.html、style.css、script.js 上传到仓库根目录
+    3. 新建 assets 文件夹，并上传头像与课题图片
+    4. 进入 GitHub 仓库 -> Settings -> Pages
+    5. 在 Build and deployment 中选择 Deploy from a branch
+    6. Branch 选择 main，folder 选择 /root
+    7. 点击 Save
+    8. 稍等片刻即可获得公开网址，例如：
+       https://你的用户名.github.io/academic-cv/
+  -->
+
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a href="#hero" class="brand">Li Zihan</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="打开导航菜单" aria-expanded="false" aria-controls="navMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#hero">首页</a>
+        <a href="#about">关于我</a>
+        <a href="#education">教育背景</a>
+        <a href="#interests">研究兴趣</a>
+        <a href="#research">研究经历</a>
+        <a href="#publications">论文发表</a>
+        <a href="#internship">实习经历</a>
+        <a href="#skills">科研技能</a>
+        <a href="#activities">校园经历</a>
+        <a href="#contact">联系方式</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="hero">
+      <div class="container hero-grid">
+        <div class="hero-text fade-in-up">
+          <p class="eyebrow">Academic Profile</p>
+          <h1>李子涵</h1>
+          <p class="hero-subtitle">
+            四川大学华西临床医学院｜医学检验技术专业｜医学人工智能微专业
+          </p>
+
+          <p class="hero-summary">
+            聚焦肿瘤多组学、单细胞转录组与医学人工智能交叉研究，关注食管鳞癌等重大疾病的无创标志物挖掘与临床转化，
+            致力于发展面向精准诊疗的生物医学研究方法。
+          </p>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">邮箱</span>
+              <a href="mailto:lizihan@stu.scu.edu.cn">lizihan@stu.scu.edu.cn</a>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">电话</span>
+              <a href="tel:18788907583">18788907583</a>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">机构</span>
+              <span>四川大学华西临床医学院</span>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://orcid.org/0009-0002-4704-9306" target="_blank" rel="noopener noreferrer">
+              ORCID 学术主页
+            </a>
+            <a class="btn btn-secondary" href="#research">查看研究经历</a>
+          </div>
+        </div>
+
+        <div class="hero-photo fade-in-up delay-1">
+          <div class="photo-card">
+            <!--
+              请将个人照片命名为 avatar.jpg，放入 assets 文件夹中，建议尺寸 400x400 像素，正方形。
+              替换图片后无需修改 HTML。
+            -->
+            <div class="avatar-wrap">
+              <img
+                src="assets/avatar.jpg"
+                alt="个人照片"
+                class="avatar"
+                onerror="this.src='https://via.placeholder.com/200?text=Photo'"
+              />
+              <div class="avatar-fallback" aria-hidden="true">
+                <span>头像占位</span>
+              </div>
+            </div>
+            <p class="photo-caption">个人照片</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">About</p>
+          <h2>关于我</h2>
+        </div>
+
+        <div class="card about-card">
+          <p>
+            我目前就读于<strong>四川大学华西临床医学院</strong>，主修医学检验技术，选修医学人工智能微专业。
+            我的研究聚焦于<strong>肿瘤多组学分析、单细胞转录组、无创生物标志物挖掘与临床转化</strong>，
+            尤其关注食管鳞癌等消化系统肿瘤在精准诊疗中的关键科学问题。
+          </p>
+          <p>
+            在科研训练中，我持续结合<strong>多组学数据分析、机器学习方法与实验验证</strong>，
+            形成了较完整的研究工作流能力。希望未来进一步在纳米技术、微流控技术与人工智能融合方向深入探索，
+            推动唾液外泌体等新型无创检测策略走向临床应用。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="education">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Education</p>
+          <h2>教育背景</h2>
+        </div>
+
+        <div class="education-grid">
+          <article class="card education-card">
+            <div class="edu-head">
+              <div>
+                <h3>四川大学华西临床医学院</h3>
+                <p class="edu-major">医学检验技术专业（主修）｜医学人工智能微专业（选修）</p>
+              </div>
+              <span class="time-badge">2022.09－至今</span>
+            </div>
+
+            <div class="info-grid">
+              <div class="info-item">
+                <span class="info-label">综合成绩</span>
+                <span class="info-value">87.5</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">英语水平</span>
+                <span class="info-value">CET-6（502）｜IELTS（6.5）</span>
+              </div>
+            </div>
+
+            <div class="sub-block">
+              <h4>荣誉奖项</h4>
+              <ul class="clean-list">
+                <li>四川大学综合一等奖学金（综合前 2%）</li>
+                <li>TCL 华萌奖学金（学院唯一）</li>
+                <li>罗氏诊断中国医学及生命科学奖学金</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="interests">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Research Interests</p>
+          <h2>研究兴趣</h2>
+        </div>
+
+        <div class="card interest-card">
+          <p>
+            聚焦于食管鳞癌诊疗难题，利用多组学与人工智能算法挖掘可临床转化的无创生物标志物；
+            针对唾液中肿瘤信号丰度低、干扰严重及富集效率低等问题，希望进一步学习纳米技术和微流控技术
+            在唾液外泌体富集与检测中的应用，建立针对食管鳞癌的唾液外泌体多组学检测技术，
+            推动无创唾液诊断的临床转化。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Research Experience</p>
+          <h2>研究经历</h2>
+        </div>
+
+        <div class="research-list">
+          <article class="card research-card">
+            <div class="card-top">
+              <div>
+                <h3>食管鳞癌（ESCC）唾液多组学分型与无创标志物研究</h3>
+                <p class="mentor">导师：周娟、周锦、应斌武</p>
+              </div>
+              <span class="time-badge">2024.12－至今</span>
+            </div>
+
+            <div class="research-body">
+              <div class="research-content">
+                <div class="sub-block">
+                  <h4>研究内容与成果</h4>
+                  <ul class="clean-list">
+                    <li>基于 150 例治疗前 ESCC 患者唾液蛋白组、代谢组和脂质组数据开展分析</li>
+                    <li>联合 Consensus、NMF、iCluster 三种聚类算法识别 3 个稳定分子亚型</li>
+                    <li>发现亚型间存在显著生存差异，并通过通路分析定义各亚型生物功能</li>
+                    <li>利用 LASSO、随机森林、SVM 构建高危亚型预测模型，并进行 10 折交叉验证</li>
+                    <li>在 ESCC 组织 TCGA 转录组和 CPTAC 蛋白组中验证关键标志物的组织-唾液一致性</li>
+                    <li>建立独立免疫治疗队列（PD-1治疗患者 30 例，健康对照 30 例）用于后续疗效预测分析</li>
+                  </ul>
+                </div>
+
+                <div class="sub-block">
+                  <h4>个人工作</h4>
+                  <ul class="clean-list">
+                    <li>负责伦理申报及患者随访</li>
+                    <li>独立完成主要数据分析流程</li>
+                    <li>完成毕业论文撰写及科研论文初稿</li>
+                  </ul>
+                </div>
+
+                <!--
+                  请将课题图片分别命名为 project1.jpg ~ project4.jpg，放入 assets 文件夹，建议宽度 800px 以内，横向或方形均可。
+                -->
+                <figure class="project-figure">
+                  <img
+                    src="assets/project1.jpg"
+                    alt="食管鳞癌唾液多组学研究技术路线"
+                    class="project-img"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/800x480?text=%E8%AF%BE%E9%A2%98%E7%A4%BA%E6%84%8F%E5%9B%BE%E5%BE%85%E8%A1%A5%E5%85%85';"
+                  />
+                  <figcaption>图：食管鳞癌唾液多组学研究技术路线</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="card research-card">
+            <div class="card-top">
+              <div>
+                <h3>胰腺腺鳞癌（PASC）转分化机制的单细胞转录组研究</h3>
+                <p class="mentor">导师：吴仲、周锦</p>
+              </div>
+              <span class="time-badge">2024.03－2024.10</span>
+            </div>
+
+            <div class="research-body">
+              <div class="research-content">
+                <div class="sub-block">
+                  <h4>研究内容与成果</h4>
+                  <ul class="clean-list">
+                    <li>基于 15 例 PASC 组织样本单细胞转录组数据（23.5 万高质量细胞）绘制图谱</li>
+                    <li>揭示肿瘤微环境呈“冷肿瘤”特征，以 CD68+ 巨噬细胞浸润为主、CD8+ T 细胞耗竭明显</li>
+                    <li>通过 inferCNV 提取恶性上皮细胞</li>
+                    <li>结合 SOX9、KRT8、SOX2、KRT5、TP63 等标志物注释细胞状态</li>
+                    <li>在 UMAP 上观察到腺癌 → 中间态 → 鳞癌的连续分化谱系</li>
+                    <li>通过 monocle2/3 拟时序分析验证该转分化轨迹</li>
+                    <li>发现中间态细胞富集 DNA 修复及细胞周期调控通路，鳞癌富集免疫逃逸及增殖失调相关通路</li>
+                  </ul>
+                </div>
+
+                <div class="sub-block">
+                  <h4>个人工作</h4>
+                  <ul class="clean-list">
+                    <li>参与单细胞建库实验</li>
+                    <li>负责全部单细胞数据上游与下游分析</li>
+                  </ul>
+                </div>
+
+                <figure class="project-figure">
+                  <img
+                    src="assets/project2.jpg"
+                    alt="胰腺腺鳞癌单细胞图谱及转分化轨迹"
+                    class="project-img"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/800x480?text=%E8%AF%BE%E9%A2%98%E7%A4%BA%E6%84%8F%E5%9B%BE%E5%BE%85%E8%A1%A5%E5%85%85';"
+                  />
+                  <figcaption>图：胰腺腺鳞癌单细胞图谱及转分化轨迹</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="card research-card">
+            <div class="card-top">
+              <div>
+                <h3>肝癌（HCC）新辅助靶免治疗单细胞转录组研究</h3>
+                <p class="mentor">导师：陈豪、周娟、应斌武</p>
+              </div>
+              <span class="time-badge">2025.03－至今</span>
+            </div>
+
+            <div class="research-body">
+              <div class="research-content">
+                <div class="sub-block">
+                  <h4>研究内容</h4>
+                  <ul class="clean-list">
+                    <li>分析 15 例 camrelizumab + apatinib 新辅助治疗 HCC 患者外周血及 6 例肿瘤组织单细胞数据</li>
+                    <li>发现 HLA-DR+CD74+ 中性粒细胞及 LEF1+ Tscm 细胞变化与治疗反应相关</li>
+                  </ul>
+                </div>
+
+                <div class="sub-block">
+                  <h4>个人工作</h4>
+                  <ul class="clean-list">
+                    <li>负责全部单细胞数据上游与下游分析</li>
+                  </ul>
+                </div>
+
+                <figure class="project-figure">
+                  <img
+                    src="assets/project3.jpg"
+                    alt="肝癌新辅助治疗免疫微环境单细胞分析"
+                    class="project-img"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/800x480?text=%E8%AF%BE%E9%A2%98%E7%A4%BA%E6%84%8F%E5%9B%BE%E5%BE%85%E8%A1%A5%E5%85%85';"
+                  />
+                  <figcaption>图：肝癌新辅助治疗免疫微环境单细胞分析</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+
+          <article class="card research-card">
+            <div class="card-top">
+              <div>
+                <h3>CDK4/6抑制剂耐药逆转的纳米酶策略研究</h3>
+                <p class="mentor">导师/通讯作者：周锦、应斌武</p>
+              </div>
+              <span class="time-badge">2025.03－2025.09</span>
+            </div>
+
+            <div class="research-body">
+              <div class="research-content">
+                <div class="sub-block">
+                  <h4>研究内容</h4>
+                  <ul class="clean-list">
+                    <li>构建二维催化纳米酶逆转食管鳞癌 CDK4/6 抑制剂耐药</li>
+                    <li>机制涉及泛 ERBB 信号异常激活及铁死亡敏感性变化</li>
+                    <li>相关成果已被 <em>Small</em> 接收</li>
+                  </ul>
+                </div>
+
+                <div class="sub-block">
+                  <h4>个人工作</h4>
+                  <ul class="clean-list">
+                    <li>主导转录组数据上游和下游分析</li>
+                    <li>负责图表绘制</li>
+                  </ul>
+                </div>
+
+                <figure class="project-figure">
+                  <img
+                    src="assets/project4.jpg"
+                    alt="纳米酶逆转CDK4/6抑制剂耐药机制示意图"
+                    class="project-img"
+                    onerror="this.onerror=null;this.src='https://via.placeholder.com/800x480?text=%E8%AF%BE%E9%A2%98%E7%A4%BA%E6%84%8F%E5%9B%BE%E5%BE%85%E8%A1%A5%E5%85%85';"
+                  />
+                  <figcaption>图：纳米酶逆转 CDK4/6 抑制剂耐药机制示意图</figcaption>
+                </figure>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Publications</p>
+          <h2>论文发表</h2>
+        </div>
+
+        <div class="publication-list">
+          <article class="card publication-card">
+            <div class="publication-top">
+              <span class="pub-badge status-prep">准备中</span>
+            </div>
+            <h3>
+              Multi-Omics Analysis of Patient-Derived Saliva Enables Clinically Relevant Molecular
+              Classification of Esophageal Squamous Cell Carcinoma.
+            </h3>
+            <p class="pub-meta"><strong>Status:</strong> Manuscript in Preparation</p>
+            <p class="pub-meta"><strong>Authors:</strong> Zihan Li, Liting You, Yahui Zhao, Wenjing Zhou, Zhihua Liu#, Juan Zhou#, Jin Zhou#, Binwu Ying#. (co-first author)</p>
+          </article>
+
+          <article class="card publication-card">
+            <div class="publication-top">
+              <span class="pub-badge status-accepted">已接收</span>
+            </div>
+            <h3>
+              2D Catalytic Nanozyme Reverses CDK4/6 Inhibitor Resistance via Pan-ERBB Kinase Inhibition
+              in Oesophageal Squamous Cell Carcinoma.
+            </h3>
+            <p class="pub-meta"><strong>Journal:</strong> Small</p>
+            <p class="pub-meta"><strong>Status:</strong> Accepted</p>
+            <p class="pub-meta"><strong>Authors:</strong> Peilin Wu#, Ling Lan#, Zihan Li, Yi Li, Binwu Ying#, Fengming Luo#, Xuping Sun#, Jin Zhou#.</p>
+          </article>
+
+          <article class="card publication-card">
+            <div class="publication-top">
+              <span class="pub-badge status-published">已发表</span>
+            </div>
+            <h3>
+              Enhanced efficacy of immune checkpoint inhibitors combined locoregional therapy and tyrosine
+              kinase inhibitors in the treatment of unresectable hepatocellular carcinoma: A single-center retrospective study.
+            </h3>
+            <p class="pub-meta"><strong>Journal:</strong> Frontiers in Oncology, 2025 Feb 25</p>
+            <p class="pub-meta"><strong>Status:</strong> Published</p>
+            <p class="pub-meta"><strong>Authors:</strong> Junfeng Bu#, Zihan Li#, Die Hu, Ling Lan, Jiwei Huang, Xin Wang, Qiu Li, Jin Zhou#, Yong Zeng#.</p>
+          </article>
+
+          <article class="card publication-card">
+            <div class="publication-top">
+              <span class="pub-badge status-published">已发表</span>
+            </div>
+            <h3>
+              Enhancing the timeliness of EMR documentation in resident doctors: the role of PDCA cycle management.
+            </h3>
+            <p class="pub-meta"><strong>Journal:</strong> BMC Medical Education, 2024 Nov 26</p>
+            <p class="pub-meta"><strong>Status:</strong> Published</p>
+            <p class="pub-meta"><strong>Authors:</strong> Jiaoting Chen, Zihan Li, Wananqi Ma, Yu Tang, Can Liu, Shanshan Ma, Ming Xu, Qiongwen Zhang.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="internship">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Internship</p>
+          <h2>实习经历</h2>
+        </div>
+
+        <article class="card internship-card">
+          <div class="card-top">
+            <div>
+              <h3>华西医院实验医学科及临床科室轮转</h3>
+              <p class="mentor">实验室与临床检验实践</p>
+            </div>
+            <span class="time-badge">2025.7－至今</span>
+          </div>
+
+          <ul class="clean-list">
+            <li>轮转免疫、微生物、血液、分子、输血科、急诊检验等科室，理解检验指标从实验室报告到临床决策的完整路径</li>
+            <li>在输血科轮转期间，发现患者献血证信息登记流程存在信息不清、反复询问的问题，主动优化流程并独立设计制作4页流程海报，张贴后获得带教老师认可并持续使用</li>
+            <li>在急诊检验轮转期间，注意到交叉引物等温扩增（CPA）技术的甲乙流检测试剂盒临床阳性率偏低，对其原理和应用产生兴趣。在老师支持下，尝试将CPA技术应用于胃癌新型易感菌咽峡炎链球菌检测，独立完成引物设计、体系优化及粪便样本验证，发现该方法稳定性差、易污染、阳性率低于qPCR，未能建立可靠体系，但积累了等温扩增技术的实践经验</li>
+            <li>熟练操作流式细胞仪、荧光显微镜、MALDI-TOF 质谱仪、qPCR 仪等仪器</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Skills</p>
+          <h2>科研技能</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="card skill-card">
+            <h3>组学分析</h3>
+            <div class="tag-group">
+              <span class="tag">单细胞转录组</span>
+              <span class="tag">Bulk 转录组</span>
+              <span class="tag">蛋白组</span>
+              <span class="tag">代谢组</span>
+              <span class="tag">脂质组</span>
+              <span class="tag">转录组上下游分析</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>编程与软件</h3>
+            <div class="tag-group">
+              <span class="tag">R</span>
+              <span class="tag">Python</span>
+              <span class="tag">Linux</span>
+              <span class="tag">Cell Ranger</span>
+              <span class="tag">Seurat</span>
+              <span class="tag">Scanpy</span>
+              <span class="tag">SPSS</span>
+              <span class="tag">GraphPad Prism</span>
+              <span class="tag">SnapGene</span>
+              <span class="tag">Zotero</span>
+            </div>
+          </article>
+
+          <article class="card skill-card">
+            <h3>分子与动物实验</h3>
+            <div class="tag-group">
+              <span class="tag">qPCR</span>
+              <span class="tag">Western Blot</span>
+              <span class="tag">单细胞建库</span>
+              <span class="tag">引物设计</span>
+              <span class="tag">质粒构建</span>
+              <span class="tag">小鼠皮下注射</span>
+              <span class="tag">灌胃</span>
+              <span class="tag">耳缘静脉注射</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt-bg" id="activities">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Activities</p>
+          <h2>校园经历</h2>
+        </div>
+
+        <div class="activities-grid">
+          <article class="card activity-card">
+            <h3>体育竞赛</h3>
+            <p>四川大学校运会男子垒球三连冠（破校纪录），“川大杯”排球比赛团体第五名</p>
+          </article>
+
+          <article class="card activity-card">
+            <h3>学生工作</h3>
+            <p>曾担任班长、年级长等，获四川大学“百佳”学生干部表彰</p>
+          </article>
+
+          <article class="card activity-card">
+            <h3>志愿服务</h3>
+            <p>长期服务于四川大学图书馆志愿者队，累计志愿时长 120h+</p>
+          </article>
+
+          <article class="card activity-card">
+            <h3>学术竞赛</h3>
+            <p>作为负责人获得第九届全国大学生基础医学创新研究暨实验设计论坛大赛国家级银奖</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Contact</p>
+          <h2>联系方式</h2>
+        </div>
+
+        <div class="contact-grid">
+          <article class="card contact-card">
+            <h3>联系信息</h3>
+            <ul class="contact-list">
+              <li><strong>Email：</strong><a href="mailto:lizihan@stu.scu.edu.cn">lizihan@stu.scu.edu.cn</a></li>
+              <li><strong>Tel：</strong><a href="tel:18788907583">18788907583</a></li>
+              <li><strong>Institution：</strong>四川大学华西临床医学院</li>
+              <li>
+                <strong>ORCID：</strong>
+                <a href="https://orcid.org/0009-0002-4704-9306" target="_blank" rel="noopener noreferrer">
+                  View ORCID Profile
+                </a>
+              </li>
+            </ul>
+          </article>
+
+          <article class="card contact-card">
+            <h3>研究方向标签</h3>
+            <div class="tag-group">
+              <span class="tag">肿瘤多组学</span>
+              <span class="tag">单细胞转录组</span>
+              <span class="tag">医学人工智能</span>
+              <span class="tag">无创生物标志物</span>
+              <span class="tag">临床转化研究</span>
+              <span class="tag">食管鳞癌</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© 2025 李子涵 | 最后更新：2025年4月</p>
+      <p>
+        <a href="https://orcid.org/0009-0002-4704-9306" target="_blank" rel="noopener noreferrer">
+          ORCID 学术主页
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="回到顶部">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
